@@ -1,12 +1,10 @@
-let playlist = new Object();
-
-playlist = {
- artistName: "Sasha",
- songTitle: "Xpander"
-}
+let playlist = new Object(
+  {
+     artistName: "Sasha",
+  songTitle: "Xpander"
+  });
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  // Add the song and artist as a key-value pair and then return the whole playlist
   playlist.artistName = songTitle;
   return playlist;
 }
