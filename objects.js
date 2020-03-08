@@ -7,7 +7,7 @@ playlist = {
 
 function updatePlaylist(playlist, artistName, songTitle) {
   // Add the song and artist as a key-value pair and then return the whole playlist
-  playlist.assign(
+  Object.assign(
     {},
     artistName,
     songTitle
