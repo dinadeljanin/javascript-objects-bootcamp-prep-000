@@ -1,7 +1,7 @@
 let playlist = new Object(
   {
-     artistName: "Sasha",
-  songTitle: "Xpander"
+    artistName: "Sasha",
+    songTitle: "Xpander"
   });
 
 function updatePlaylist(playlist, artistName, songTitle) {
